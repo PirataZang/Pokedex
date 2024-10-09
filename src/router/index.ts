@@ -4,7 +4,7 @@ import Home from '../components/Home.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/',
+    path: '/teste',
     name: 'Home',
     component: Home
   },

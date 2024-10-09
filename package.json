@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "axios": "^1.7.7",
+    "collect.js": "^4.36.1",
+    "collections": "^5.1.13",
     "vue": "^3.5.10",
     "vue-router": "^4.4.5"
   },

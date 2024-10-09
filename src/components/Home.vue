@@ -16,6 +16,7 @@
   
   <script>
   import axios from 'axios'
+
   export default {
     name: 'Home',
 
@@ -29,6 +30,7 @@
     methods:{
         async fetchPokemon(){
             try {
+                debugger
                 const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${this.pokemonName.toLowerCase()}`);
                 this.pokemon = response.data
                 debugger

@@ -1,7 +1,6 @@
 <script setup lang="ts">
-import Home from './components/Home.vue';
+import collect from 'collect.js';
 </script>
-
 <template>
   <Home/>
 </template>
