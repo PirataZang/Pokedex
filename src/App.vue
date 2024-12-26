@@ -1,5 +1,5 @@
-<script setup lang="ts">
-import collect from 'collect.js';
+<script setup>
+import Home from './components/Home.vue';
 </script>
 <template>
   <Home/>
