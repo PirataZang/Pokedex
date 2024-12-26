@@ -27,10 +27,10 @@
                 <div class="status">
                     <h2>Status</h2>
                     <div class="stats">
-                        <p><b>Ataque:</b> {{ status.attack }} </p>
+                        <p><b> <i class="fa-solid fa-bomb"></i> Ataque: </b> {{ status.attack }} </p>
                         <p><b><i class="fa-solid fa-heart"></i> HP:</b> {{ status.hp }} </p>
                         <p><i class="fa-solid fa-shield"></i> <b>Defesa:</b> {{ status.defense }} </p>
-                        <p><b>Velocidade:</b> {{ status.speed }} </p>
+                        <p><b><i class="fa-solid fa-bolt"></i> Velocidade:</b> {{ status.speed }} </p>
                     </div>
                 </div>
             </div>
